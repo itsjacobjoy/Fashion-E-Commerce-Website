@@ -1,0 +1,171 @@
+*{
+    font-family: poppins;
+    text-decoration: none;
+    background-color: white;
+}
+p1{
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    font-weight: 800;
+    font-size: xx-large;
+
+}
+
+.product img.bomber{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    margin-left: 150px;
+    margin-top: 200px;
+    transition: transform 1s ease-in-out;
+    border-radius: 10in;
+}
+
+.product img.bomber:hover{
+    transform:scale(1.1);
+    z-index: 2;
+}
+
+.product img.red_top{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    margin-top: 200px;
+    right: 100px;
+    transition: transform 1s ease-in-out;
+}
+
+.product img.red_top:hover{
+    transform:scale(1.1);
+    z-index: 2;
+}
+
+.product h1{
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 800;
+    left: 150px;
+    top: 650px;
+}
+
+.product p.bomber_price{
+    position: absolute;
+    font-weight: 700;
+    left: 150px;
+    top: 700px;
+}
+
+.product h2{
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 800;
+    left: 870px;
+    top: 650px;
+}
+
+.product p.red_top_price{
+    position: absolute;
+    font-weight: 700;
+    left: 870px;
+    top: 700px;
+}
+
+.product img.cart{
+    position: absolute;
+    font-weight: 700;
+    left: 1100px;
+    top: 680px;
+    height: 15px;
+    width: 15px;
+}
+
+.product img.cart2{
+    position: absolute;
+    font-weight: 700;
+    left: 420px;
+    top: 680px;
+    height: 15px;
+    width: 15px;
+}
+
+.product img.sweatshirt{
+    position: absolute;
+    width: 580px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    margin-top: 850px;
+    right: 80px;
+    transition: transform 1s ease-in-out;
+}
+
+.product img.sweatshirt:hover{
+    transform:scale(1.1);
+    z-index: 2;
+}
+
+.product h3{
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 800;
+    left: 860px;
+    top: 1380px;
+}
+
+.product p.sweat_price{
+    position: absolute;
+    font-weight: 700;
+    left: 860px;
+    top: 1440px;
+}
+
+.product img.cart3{
+    position: absolute;
+    font-weight: 700;
+    left: 1180px;
+    top: 1415px;
+    height: 15px;
+    width: 15px;
+}
+
+
+.product img.wool_jacket{
+    position: absolute;
+    width: 580px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    margin-top: 850px;
+    left: 90px;
+    transition: transform 1s ease-in-out;
+}
+
+.product img.wool_jacket:hover{
+    transform:scale(1.1);
+    z-index: 2;
+}
+
+.product h4{
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 800;
+    left: 90px;
+    top: 1380px;
+}
+
+.product p.wool_price{
+    position: absolute;
+    font-weight: 700;
+    left: 90px;
+    top: 1440px;
+}
+
+.product img.cart4{
+    position: absolute;
+    font-weight: 700;
+    left: 405px;
+    top: 1425px;
+    height: 15px;
+    width: 15px;
+}
